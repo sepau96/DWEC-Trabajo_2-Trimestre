@@ -1,12 +1,6 @@
-/*!
-    * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-    */
-    (function ($) {
-    "use strict"; // Start of use strict
 
-    // Smooth scrolling using jQuery easing
+   (function ($) {
+
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ==
@@ -30,12 +24,12 @@
         }
     });
 
-    // Closes responsive menu when a scroll trigger link is clicked
+    // Collapse de la barra de navegacion
     $(".js-scroll-trigger").click(function () {
         $(".navbar-collapse").collapse("hide");
     });
 
-    // Activate scrollspy to add active class to navbar items on scroll
+    //Navbar spy para que cambie el navbar de color
     $("body").scrollspy({
         target: "#mainNav",
         offset: 74,
@@ -49,8 +43,8 @@
             $("#mainNav").removeClass("navbar-shrink");
         }
     };
-    // Collapse now if page is not at top
+    // Sii la barra de navegacion esta en el top de la pagina
     navbarCollapse();
-    // Collapse the navbar when page is scrolled
+    // Collapse del navbar cuando usa el spy
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
