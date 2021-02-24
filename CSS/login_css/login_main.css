@@ -32,6 +32,11 @@
   padding: 0%;
 }
 
+.logoPagina{
+  height: 10rem;
+  width: 40rem;
+}
+
 a {
   font-family: Poppins-Regular;
   font-size: 14px;
@@ -168,7 +173,7 @@ button:hover {
   overflow: hidden;
   padding: 55px 55px 37px 55px;
   background: black;
-  background: -webkit-linear-gradient(top  , #ff0000, #a1010e);
+  background: -webkit-linear-gradient(top  , rgb(255, 253, 146), #887626);
 }
 
 /*------------------------------------------------------------------
@@ -186,7 +191,7 @@ button:hover {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-color: #ff0000 !important;
+  background-color: #fffb00 !important;
   margin: 0 auto;
 }
 

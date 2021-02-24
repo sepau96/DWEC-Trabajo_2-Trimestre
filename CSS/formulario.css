@@ -1,0 +1,20 @@
+textarea{
+    border: .1rem solid #aaa!important;
+}
+
+
+a:hover{
+    color: yellow!important;
+    text-decoration: none!important;
+}
+
+body{
+    background-image: url(/assets/img/login_fondo.jpg);
+}
+ 
+
+.marginForm{
+    margin-bottom: 1.25rem!important;
+}
+
+  

@@ -1,11 +1,19 @@
 .areaModal{
-    height: 100%;
-    width: 70%;
+    height: 20rem;
+    width: 20rem;
   }
   
-  .container , .container-fluid{
-      margin-top: 3rem;
-  }
+ 
+ 
+
+.mat{
+    margin-top: 5rem!important;
+}
+
+a:hover{
+    color: yellow!important;
+    text-decoration: none!important;
+}
 
 
  

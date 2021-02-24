@@ -22,7 +22,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+        <a class="navbar-brand js-scroll-trigger mt-5" href="/index.html"
           ><label for="">Da Bep Lec'h Travel</label></a
         >
         <button
@@ -49,19 +49,22 @@
                 >Instagram</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Sitios</a>
-            </li>
 
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Blog</a>
-            </li>
-
-            <li class="nav-item">
-              <a
-                class="nav-link js-scroll-trigger"
-                href="./Html/formulario.html"
+              <a class="nav-link js-scroll-trigger" href="#contactanos"
                 >Contactanos</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="Html/blog.html"
+                >Blog</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="Html/login.html"
+                >Login</a
               >
             </li>
           </ul>
@@ -85,50 +88,56 @@
     <!-- Servicios-->
     <section class="page-section" id="services">
       <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Servicios</h2>
-          <h3 class="section-subheading text-muted"></h3>
+        <div class="row">
+          <div class="text-center col-12">
+            <h2 class="ingsection-heading text-uppercase text-center">Servicios</h2>
+            <h3 class="section-subheading text-muted"></h3>
+          </div>
+
+          <!-- Button trigger modal -->
+
+          <button
+            type="button"
+            class="btn btn-primary mt-5"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            <h4 class="my-3">Areas de Autocaravana</h4>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              maxime quam architecto quo inventore harum ex magni, dicta
+              impedit.
+            </p>
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-primary ma-top"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            <h4 class="my-3">Consejos</h4>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              maxime quam architecto quo inventore harum ex magni, dicta
+              impedit.
+            </p>
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-primary ma-top"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            <h4 class="my-3">Tipos de Autocaravanas</h4>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              maxime quam architecto quo inventore harum ex magni, dicta
+              impedit.
+            </p>
+          </button>
         </div>
-
-        <!-- Button trigger modal -->
-        <button
-          type="button"
-          class="btn btn-primary"
-          data-toggle="modal"
-          data-target="#exampleModal"
-        >
-          <h4 class="my-3">Areas de Autocaravana</h4>
-          <p class="text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-            maxime quam architecto quo inventore harum ex magni, dicta impedit.
-          </p>
-        </button>
-
-        <button
-          type="button"
-          class="btn btn-primary"
-          data-toggle="modal"
-          data-target="#exampleModal"
-        >
-          <h4 class="my-3">Consejos</h4>
-          <p class="text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-            maxime quam architecto quo inventore harum ex magni, dicta impedit.
-          </p>
-        </button>
-
-        <button
-          type="button"
-          class="btn btn-primary"
-          data-toggle="modal"
-          data-target="#exampleModal"
-        >
-          <h4 class="my-3">Tipos de Autocaravanas</h4>
-          <p class="text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-            maxime quam architecto quo inventore harum ex magni, dicta impedit.
-          </p>
-        </button>
 
         <!-- Modal -->
         <div
@@ -145,8 +154,7 @@
                 <h5 class="modal-title" id="exampleModalLabel">
                   Areas de autocaravana
                 </h5>
-               
-                
+
                 <button
                   type="button"
                   class="close"
@@ -175,7 +183,9 @@
                 >
                   Cerrar
                 </button>
-                <button type="button" class="btn btn-warning"><a href="Html/blog.html" class="aVerMas">Ver más</a></button>
+                <button type="button" class="btn btn-warning">
+                  <a href="Html/blog.html" class="aVerMas">Ver más</a>
+                </button>
               </div>
             </div>
           </div>
@@ -194,25 +204,74 @@
           </h3>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <!-- SnapWidget -->
+          <div class="">
+            <div class="">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <a href="https://www.instagram.com/dabeplech_travel/">
+                      <img
+                        src="/assets/img/galeria/1.PNG"
+                        target="_blank"
+                        class="logoGaleria"
+                        alt=""
+                      />
+                    </a>
+                  </div>
 
-              <script src="https://snapwidget.com/js/snapwidget.js"></script>
-              <iframe
-                src="https://snapwidget.com/embed/912922"
-                class="snapwidget-widget"
-                allowtransparency="true"
-                frameborder="0"
-                scrolling="no"
-                style="
-                  border: none;
-                  overflow: hidden;
-                  width: 100%;
-                  margin-left: 23rem;
-                "
-                id="prueba"
-              ></iframe>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="https://www.instagram.com/dabeplech_travel/">
+                      <img
+                        src="/assets/img/galeria/2.PNG"
+                        target="_blank"
+                        class="logoGaleria"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="https://www.instagram.com/dabeplech_travel/">
+                      <img
+                        src="/assets/img/galeria/3.PNG"
+                        target="_blank"
+                        class="logoGaleria"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="https://www.instagram.com/dabeplech_travel/">
+                      <img
+                        src="/assets/img/galeria/4.PNG"
+                        target="_blank"
+                        class="logoGaleria"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="https://www.instagram.com/dabeplech_travel/">
+                      <img
+                        src="/assets/img/galeria/5.PNG"
+                        target="_blank"
+                        class="logoGaleria"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="https://www.instagram.com/dabeplech_travel/">
+                      <img
+                        src="/assets/img/galeria/6.PNG"
+                        target="_blank"
+                        class="logoGaleria"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -222,7 +281,7 @@
     <!-- About-->
 
     <!-- Contact-->
-    <section class="page-section" id="contact">
+    <section class="page-section" id="contactanos">
       <div class="container">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">Contactanos</h2>
