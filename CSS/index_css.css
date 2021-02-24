@@ -59,7 +59,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   margin: 1rem!important;
 }
 
-
+.nombrePagina{
+  color: #ffc107;
+}
 
 .ma-top{
   margin-top: 3rem!important;
