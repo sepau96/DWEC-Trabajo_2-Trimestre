@@ -7,7 +7,7 @@ function validar() {
     var b = document.getElementById("Contrasena").value;
 
 
-    if (a == null || b == null ) {
+    if (a == "" || b == "" ) {
         document.getElementById("salida").innerHTML = "Los campos no pueden estar vacios";
     } else{
         document.getElementById("salida").innerHTML = "Loqueado correctamente"

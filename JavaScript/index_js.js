@@ -43,7 +43,7 @@
             $("#mainNav").removeClass("navbar-shrink");
         }
     };
-    // Sii la barra de navegacion esta en el top de la pagina
+    // Si la barra de navegacion esta en el top de la pagina
     navbarCollapse();
     // Collapse del navbar cuando usa el spy
     $(window).scroll(navbarCollapse);
