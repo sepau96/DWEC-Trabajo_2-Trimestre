@@ -23,7 +23,9 @@
             }
         }
     });
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+    
     // Collapse de la barra de navegacion
     $(".js-scroll-trigger").click(function () {
         $(".navbar-collapse").collapse("hide");
