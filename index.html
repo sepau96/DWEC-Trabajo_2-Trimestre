@@ -89,35 +89,95 @@
           <h2 class="section-heading text-uppercase">Servicios</h2>
           <h3 class="section-subheading text-muted"></h3>
         </div>
-        <div class="row text-center">
-          <div class="col-md-4 border">
-            <span class="fa-stack fa-4x"> </span>
-            <h4 class="my-3">Areas de Autocaravana</h4>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
-            </p>
-          </div>
 
-          <div class="col-md-4 border">
-            <span class="fa-stack fa-4x"> </span>
-            <h4 class="my-3">Consejos</h4>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
-            </p>
-          </div>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModal"
+        >
+          <h4 class="my-3">Areas de Autocaravana</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </button>
 
-          <div class="col-md-4 border">
-            <span class="fa-stack fa-4x"> </span>
-            <h4 class="my-3">Tipos de Autocaravanas</h4>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
-            </p>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModal"
+        >
+          <h4 class="my-3">Consejos</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModal"
+        >
+          <h4 class="my-3">Tipos de Autocaravanas</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Areas de autocaravana
+                </h5>
+               
+                
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify-center">
+                <label>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae nulla earum omnis veniam temporibus, laboriosam iure
+                  placeat, in dolores illum quia voluptatem sapiente nostrum
+                  quas! Quo voluptate ex error hic.
+                </label>
+              </div>
+              <div class="modal-body">
+                <img src="assets/img/areaAuto.jpg" class="areaModal" />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+                <button type="button" class="btn btn-warning"><a href="Html/blog.html" class="aVerMas">Ver más</a></button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -225,7 +285,7 @@
               id="sendMessageButton"
               type="submit"
             >
-              Send Message
+              Enviar pregunta
             </button>
           </div>
         </form>
@@ -236,7 +296,9 @@
     <footer class="footer py-4">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+          <div class="col-lg-4 text-lg-left">
+            Copyright © daBepLech Travel 2020
+          </div>
           <div class="col-lg-4 my-3 my-lg-0">
             <a class="btn btn-dark btn-social mx-2" href="#!"
               ><i class="fab fa-twitter"></i
@@ -249,8 +311,8 @@
             ></a>
           </div>
           <div class="col-lg-4 text-lg-right">
-            <a class="mr-3" href="#!">Privacy Policy</a>
-            <a href="#!">Terms of Use</a>
+            <a class="mr-3" href="#!">Politica de privacidad</a>
+            <a href="#!">Terminos de uso</a>
           </div>
         </div>
       </div>
